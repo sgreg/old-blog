@@ -1,0 +1,48 @@
+/*
+  Icon Font: font-sgreg
+*/
+
+@font-face {
+  font-family: "font-sgreg";
+  src: url("../fonts/font-sgreg_2a03e5ea98b7490c2e046c7e09459577.eot");
+  src: url("../fonts/font-sgreg_2a03e5ea98b7490c2e046c7e09459577.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/font-sgreg_2a03e5ea98b7490c2e046c7e09459577.woff") format("woff"),
+       url("../fonts/font-sgreg_2a03e5ea98b7490c2e046c7e09459577.ttf") format("truetype"),
+       url("../fonts/font-sgreg_2a03e5ea98b7490c2e046c7e09459577.svg#font-sgreg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "font-sgreg";
+    src: url("../fonts/font-sgreg_2a03e5ea98b7490c2e046c7e09459577.svg#font-sgreg") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.fsg-chip-big:before,
+.fsg-chip-small:before,
+.fsg-hackaday:before,
+.fsg-oshpark:before,
+.fsg-pcb:before {
+  display: inline-block;
+  font-family: "font-sgreg";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fsg-chip-big:before { content: "\f100"; }
+.fsg-chip-small:before { content: "\f101"; }
+.fsg-hackaday:before { content: "\f102"; }
+.fsg-oshpark:before { content: "\f103"; }
+.fsg-pcb:before { content: "\f104"; }
